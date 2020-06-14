@@ -33,7 +33,7 @@
 
 + 技术栈：React+React-Router+antd+Helmet+SEO+Github+Netlify+阿里云域名
 
-+ 简介：使用React+antd制作单页应用，React-Router实现路由跳转，Helmet动态改变页面的文档头，同时在页面中加入SEO搜索引擎优化，将代码上传到Github后，使用Netlify部署前端应用，最后使用阿里云域名解析到该地址，即可在自己的域名下访问到该网站。项目地址[https://movies.xsxyuan.cn](https://movies.xsxyuan.cn/)。
++ 简介：使用React+antd制作单页应用，React-Router实现路由跳转，Helmet动态改变页面的文档头，同时在页面中加入SEO搜索引擎优化，将代码上传到Github后，使用Netlify部署前端应用，最后使用阿里云域名解析到该地址，即可在自己的域名下访问到该网站。项目地址https://wuqiku.xsxyuan.cn/。
 
 ## 高分电影
 
