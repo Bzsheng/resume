@@ -31,7 +31,7 @@
 ## 前端武器库
 
 - 技术栈：`React` + `React-Router` + `antd` + `Helmet` + `SEO` + `Github` + `Netlify` + `Aliyun 域名服务`
-- 地址: [前端武器库](https://wuqiku.xsxyuan.cn)
+- 地址: [前端武器库](https://wuqiku.buzuosheng.com/)
 - GitHub: [Bzsheng/tools](https://github.com/Bzsheng/tools)
 
 把自己常用或者开发者常用的功能，如正则表达式，IP地址查询，各种字符串编码等功能。
@@ -41,7 +41,7 @@
 ## 高分电影
 
 - 技术栈：`Scrapy` + `MySQL` + `React` + `Eggjs` + `Sequelize`
-- 地址: [豆瓣电影每日推荐](https://movies.xsxyuan.cn/)。
+- 地址: [豆瓣电影每日推荐](https://movies.buzuosheng.com/)。
 
 一个豆瓣电影的每日推荐
 
