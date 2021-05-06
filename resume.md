@@ -11,7 +11,7 @@
 - 王奇/男/1998
 - 本科/太原科技大学软件工程/2016-2020
 - 个人博客：[https://www.buzuosheng.com](https://www.buzuosheng.com)
-- Github：[https://github.com/Bzsheng](https://github.com/Bzsheng)
+- Github：[https://github.com/buzuosheng](https://github.com/buzuosheng)
 - 微信公众号：大前端合集
 - 期望职位：前端工程师
 
@@ -19,36 +19,44 @@
 
 以下均为我熟练使用的技能
 
-- 编程语言：JavaScript/Python/Java/C++
+- 编程语言：JavaScript/Python
 - Web框架：Eggjs/Koajs
 - 前端框架：React
 - 开发工具：VsCode/Vim
-- 数据库相关：MySQL/Oracle
+- 数据库相关：MySQL
 - 版本管理、文档和自动化部署工具：Git
 
-# 项目经历
+## 项目经历
 
-## 前端武器库
+### 前端武器库
 
-- 技术栈：`React` + `React-Router` + `antd` + `Helmet` + `SEO` + `Github` + `Netlify` + `Aliyun 域名服务`
-- 地址: [前端武器库](https://wuqiku.buzuosheng.com)
-- GitHub: [Bzsheng/tools](https://github.com/Bzsheng/tools)
+- 技术栈：`Next.js` + `TypeScript` + `tailwindcss` + `Github workflows` + `Aliyun 域名服务` + `Aliyun OSS`等
+- 地址: [前端武器库](https://wuqiku.buzuosheng.com/)
+- GitHub: [buzuosheng/next-tools](https://github.com/buzuosheng/next-tool)
 
-把自己常用或者开发者常用的功能，如正则表达式，IP地址查询，各种字符串编码等功能。
+该项目集合了一些开发者常用的在线小工具，如时间戳转化，文本编码等。
 
-使用 `React` + `antd` 制作单页应用，React-Router实现路由跳转，Helmet动态改变页面的文档头，同时在页面中加入SEO搜索引擎优化，将代码上传到Github后，使用 Netlify 自动部署前端应用，最后使用阿里云域名解析到该地址，即可在自己的域名下访问到该网站。
+该项目的整体架构使用了`Next`，支持**快速刷新、内置路由、预渲染**等功能 。`TypeScript` 为项目提供了强语言类型支持。使用`tailwindcss`完成项目的布局，适配不同屏幕下的布局。项目推到github后，执行`workflows`，将代码文件发送到`Aliyun OSS`服务，完成项目的部署。
 
-## 高分电影
+### use-localStorage
 
-- 技术栈：`Scrapy` + `MySQL` + `React` + `Eggjs` + `Sequelize`
-- 地址: [豆瓣电影每日推荐](https://movies.buzuosheng.com)。
+- 技术栈：`React Hooks`
+- 地址: [npmjs.com/package/@buzuosheng/use-localstorage](https://www.npmjs.com/package/@buzuosheng/use-localstorage)。
 
-一个豆瓣电影的每日推荐
+支持过期时间的Local Storage。
 
-使用 `Scrapy` 爬虫框架**分布式**爬取电影信息，存储到数据库中 (后端只用到一小部分数据，其它数据暂存在数据库中)。然后在Egg项目中使用 Sequelize 访问MySQL数据库，获取数据，提供 API。前端应用访问 API，获取数据后渲染到页面上，并做了移动端及PC端的适配
+在基础的localStorage的API基础上，添加了**过期时间、前缀**的功能。过期时间支持多种格式，前缀可以对相同名的缓存做出区别。
 
-使用now.sh部署前端项目，再使用域名解析到该地址，在自己的域名中访问到该网站内容。数据库及后端采用 docker、docker-compose 及 traefik 部署。
+### NPM.DEVTOOL
+
+- 技术栈：`Next` + `tailwindcss`
+- 地址：[NPM.DEVTOOL](https://npm.devtool.tech/)
+
+找到最适合你的包，为你的项目分析技术堆栈。
+
+获取了npm上最流行的一千个包，获取包的信息，分析包的大小，下载量等信息，并给出4个相似功能的包。项目采用了**动态路由**的方式生成单个包的页面，通过**静态生成**的方式提高性能。通过`tailwindcss`使用了**网格布局**和**弹性布局**，对不同大小的屏幕做了布局适配。
 
 ## 自我评价
 
 性格开朗，脚踏实地，生活态度积极乐观。具有较强的学习能力，善于沟通，责任心强，有良好的团队合作意识，希望可以为贵公司服务并提供更多的效益。
+
